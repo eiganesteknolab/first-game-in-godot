@@ -13,8 +13,8 @@
 [ext_resource type="FontFile" uid="uid://dbjl1e6kdxpl6" path="res://assets/fonts/PixelOperator8.ttf" id="7_8cblx"]
 [ext_resource type="AudioStream" uid="uid://d1sy8yntn2y6q" path="res://assets/music/man-death-scream-186763.wav" id="8_aermw"]
 [ext_resource type="PackedScene" uid="uid://4kg150o2entl" path="res://scenes/music.tscn" id="8_ycuxn"]
-[ext_resource type="AudioStream" uid="uid://dpep7xgaif2kx" path="res://assets/music/Chase At Rush Hour.ogg" id="9_sxlk5"]
 [ext_resource type="AudioStream" uid="uid://d1mv7dy2li0l3" path="res://assets/music/Spring Village.ogg" id="10_tfndd"]
+[ext_resource type="AudioStream" uid="uid://fjkghur08hgw" path="res://assets/music/سبيس باور - مقدمة وان بيس _ Space Power - One Peace.wav" id="12_3qj33"]
 [ext_resource type="Script" path="res://scenes/Control.gd" id="16_gv18x"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ashvg"]
@@ -547,7 +547,7 @@ position = Vector2(32, 9)
 position = Vector2(338, 43)
 stream = ExtResource("10_tfndd")
 max_distance = 180.0
-attenuation = 0.812253
+attenuation = 4.28709
 bus = &"Master"
 area_mask = 13058
 
@@ -556,7 +556,7 @@ position = Vector2(370, 52)
 
 [node name="Music2" parent="Platforms/Platform2" instance=ExtResource("8_ycuxn")]
 position = Vector2(-338, -43)
-stream = ExtResource("9_sxlk5")
+stream = ExtResource("12_3qj33")
 max_distance = 180.0
 attenuation = 2.73208
 bus = &"Master"
