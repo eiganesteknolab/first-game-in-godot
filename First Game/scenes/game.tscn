@@ -547,7 +547,7 @@ position = Vector2(32, 9)
 position = Vector2(338, 43)
 stream = ExtResource("10_tfndd")
 max_distance = 180.0
-attenuation = 4.28709
+panning_strength = 1.09
 bus = &"Master"
 area_mask = 13058
 
